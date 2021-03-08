@@ -1,0 +1,28 @@
+* {
+  box-sizing:border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+  .hero__btn {
+  
+  position: fixed;
+  margin-top: 20px;
+  right: 70px;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+  background-color: rgba(51, 51, 51, 0.5);
+  padding-bottom: 0.5rem;
+  }
+  .hero__btn:hover{
+    color: black;
+    background-color: #e6e6ee;
+    transition: all 0.2s;
+}
